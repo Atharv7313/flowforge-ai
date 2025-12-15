@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.node-base {
+  background: #1f1f1f;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #333;
+  color: white;
+  width: fit-content;
+}
+.node-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* ============================= */
+/* React Flow – VectorShift Skin */
+/* ============================= */
+
+.vs-controls {
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.25);
+}
+
+.vs-controls button {
+  background: transparent !important;
+  color: #e9d5ff !important;
+  border-radius: 8px;
+}
+
+.vs-controls button:hover {
+  background: rgba(168, 85, 247, 0.2) !important;
+}
+
+/* ----------------------------- */
+
+.vs-minimap {
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.25);
+}
+
+.vs-minimap .react-flow__minimap-mask {
+  fill: rgba(168, 85, 247, 0.25);
+}
+
+.vs-minimap .react-flow__minimap-node {
+  stroke: rgba(255, 255, 255, 0.6);
+  stroke-width: 1;
+}
+
+.vs-controls svg {
+  stroke: #e9d5ff !important;
+  fill: none !important;
+}
+
+.vs-controls svg path {
+  stroke: #e9d5ff !important;
+}
+
+.vs-controls button {
+  background: transparent !important;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.vs-controls button:hover {
+  background: rgba(168, 85, 247, 0.25) !important;
+}
