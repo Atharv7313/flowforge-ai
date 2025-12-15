@@ -32,9 +32,6 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 ### Output & Validation
 ![Output Node](images/output-node.png)
 
-> 📌 **Note:**  
-> Create an `images/` folder inside the repository and add screenshots with the above filenames.
-
 ---
 
 ## 🧠 How It Works
@@ -59,6 +56,34 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 ---
 
 ## ▶️ Instructions to Run the Project
+Steps to Run
+
+Navigate to the project root directory (where package.json is located).
+
+Install dependencies:
+
+npm install
+
+
+Start the frontend development server:
+
+npm start
+
+
+Open the application in your browser:
+
+http://localhost:3000
+
+Backend for Pipeline Validation
+
+If using the FastAPI backend:
+
+uvicorn main:app --reload
+
+
+Backend runs at:
+
+http://localhost:8000
 
 ### Prerequisites
 - Node.js (v18 or later)
