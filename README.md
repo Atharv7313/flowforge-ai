@@ -4,7 +4,7 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Drag-and-drop, node-based workflow editor
 - Modular nodes for:
@@ -21,7 +21,7 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Workflow Builder Interface
 ![Workflow Builder](images/workflow-ui.png)
@@ -34,7 +34,7 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Users drag nodes from the toolbar onto the canvas.
 2. Nodes are connected to form a directed graph (pipeline).
@@ -45,7 +45,7 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React** – Frontend framework
 - **React Flow** – Graph-based UI
@@ -55,7 +55,7 @@ FlowForge is a visual AI workflow builder that allows users to design, execute, 
 
 ---
 
-## ▶️ Instructions to Run the Project
+## Instructions to Run the Project
 
 ## Start the frontend development server:
 
